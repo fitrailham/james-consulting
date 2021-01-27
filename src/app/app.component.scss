@@ -206,8 +206,10 @@ a:hover {
 }
 
 .gambarBackground {
-    // width: 100%;
+    width: 100%;
     // height: 100%;
+    // background-color: #76767661;
+    // text-align: center;
 }
 
 .div-pembungkus{
@@ -237,17 +239,20 @@ a:hover {
     text-align: center;
     font-size: 24px;
     letter-spacing: 0.05em;
+    padding: 10px;
 }
 
 .com-2{
     line-height: 1.5em;
     text-align: center;
     font-size: 14px;
+    padding: 10px;
     color: rgb(var(--color_11));
 }
 
 .com-3{
     --rd: 0px;
+    padding: 10px;
     --trans1: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
     --shd: none;
     --fnt: normal normal normal 16px/1.4em 'open sans',sans-serif;
@@ -294,17 +299,66 @@ a:hover {
     margin: 0;
 }
 
+.warna-about{
+  background-color: #1976d2;
+  padding: 20px;
+}
+
+
+
+.data-mesh{
+  height: auto;
+  width: 100%;
+  
+}
+
+.font-3{
+  line-height: 0.8em;
+    text-align: center;
+    font-size: 60px;
+}
+
+.deskripsi{
+  --bg-overlay-color: transparent;
+    --padding: 0px;
+    --margin: 0px;
+    min-width: 980px;
+}
+
+.device-mobile{
+  --bg-overlay-color: rgba(var(--color_11), 0.7);
+    width: 100%;
+    --column-width: 980px;
+    --column-flex: 980;
+}
+
+.font-6{
+  line-height: 1.3em;
+  text-align: center;
+  font-size: 18px;
+}
 
 .text-block {
-    position: absolute;
-    bottom: 50px; 
+      // position: absolute;
+      // bottom: 2%; 
+      // width: 100%;
+      // text-align: center;
+      // // right: 20px;
+      // background-color: #aeaeaeb8;
+      // color: white;
+      // padding-left: 20px; 
+      // padding-right: 20px;
+      padding: 20px;
+      color: #0c3c60;
+      background-color: #76767661;
+      text-align: center;
+    position: static;
+    display: grid;
+    height: auto;
     width: 100%;
-    text-align: center;
-    // right: 20px;
-    background-color: #aeaeaeb8;
-    color: white;
-    padding-left: 20px; 
-    padding-right: 20px;
+    min-height: auto;
+    grid-template-rows: min-content 1fr;
+    grid-template-columns: 100%;
 
     // position: absolute;
 //   bottom: 20px;
